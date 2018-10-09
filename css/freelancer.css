@@ -348,7 +348,8 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-color: black !important;
+  /* background-image: url(../img/imprenta_Pomelo_Publicidad.jpg); */
 }
 
 .bg-secondary {
