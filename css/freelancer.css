@@ -17,6 +17,10 @@ h6 {
   font-weight: 700;
   font-family: 'Montserrat';
 }
+.fondo{
+  background-color: rgb(14, 117, 219)!important;
+}
+
 
 hr.star-light,
 hr.star-dark {
@@ -108,6 +112,7 @@ section h2 {
   padding-bottom: 1rem;
   font-weight: 700;
   font-family: 'Montserrat';
+  background-color: rgba(8, 11, 59, 0.301);
 }
 
 #mainNav .navbar-brand {
@@ -170,6 +175,7 @@ section h2 {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
+  
 }
 
 header.masthead {
@@ -349,15 +355,23 @@ a:focus, a:hover, a:active {
 
 .bg-primary {
   background-color: black !important;
+  background-image: url(../img/fondo1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   /* background-image: url(../img/imprenta_Pomelo_Publicidad.jpg); */
+}
+.mi-fondo{
+  background-color: rgb(14, 117, 219);
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  background-color: rgb(14, 117, 219);
 }
 
 .text-primary {
   color: #18BC9C !important;
+ 
 }
 
 .text-secondary {
