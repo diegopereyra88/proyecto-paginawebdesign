@@ -20,7 +20,13 @@ h6 {
 .fondo{
   background-color: rgb(14, 117, 219)!important;
 }
-
+i{
+  
+  transition: .7s all;
+}
+i:hover{
+transform: rotate(360deg);
+}
 
 hr.star-light,
 hr.star-dark {
@@ -222,7 +228,7 @@ header.masthead h2 {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
+  background-color: rgba(30, 37, 36, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
